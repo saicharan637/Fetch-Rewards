@@ -20,14 +20,18 @@ This Web Service is built using Flask, which is a micro web framemework written 
    ```sh
    pip install flask
    ```
-4. Install VS Code(Not Mandatory): [https://code.visualstudio.com/]
+4. Install dateutil module
+   ```sh
+   pip install python-dateutil 
+   ```
+5. Install VS Code(Not Mandatory): [https://code.visualstudio.com/]
 
-5. Install Postman for API testing(Not Mandatory): [https://www.postman.com/downloads/]
+6. Install Postman for API testing(Not Mandatory): [https://www.postman.com/downloads/]
 
-6. If you're using a Windows Operating System, check this link below on how to Install and Use Linux Bash Shell on Windows :
+7. If you're using a Windows Operating System, check this link below on how to Install and Use Linux Bash Shell on Windows :
 [https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/]
 
-7. Alternatively, you can also download and install Git Bash to use Bash Shell:
+8. Alternatively, you can also download and install Git Bash to use Bash Shell:
 [https://git-scm.com/downloads]
 
 
@@ -66,13 +70,15 @@ If you can see the above message, please proceed to the next steps, if not kill 
 
 3. We are using curl commands to transfer data to and from the server.
 
-### There are two ways to Test the Web Service:
+### There are three ways to Test the Web Service:
 
 4. Open the TestSuite file and in Postman, go to File->Import->Raw text->paste the curl commands one at a time->continue->Import->Send, you can see the reponse of the request in the Reponse window.
 
-5.  Open a Bash Shell and from the TestSuite file, copy and run the curl commands one at a time and the output is diplayed, once the command is executed.
+5. Open a Bash Shell and from the TestSuite file, copy and run the curl commands one at a time and the output is diplayed, once the command is executed.
 
-6. The Balance can be checked after adding points and/or spending points.
+6. Open http://localhost:5000/balance to check the balance after adding and/or spending points via the curl commands.
+
+7. The Balance can be checked after adding points and/or spending points.
 
 ### Assumptions:
 
